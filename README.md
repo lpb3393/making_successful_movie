@@ -1,4 +1,4 @@
-https://github.com/lpb3393/making_successful_movie/blob/main/images/director_shot.jpeg
+![director shot](https://github.com/lpb3393/making_successful_movie/blob/main/images/director_shot.jpeg)
 
 
 
