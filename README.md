@@ -107,8 +107,11 @@ See the full analysis in the [Jupyter Notebook](https://github.com/lpb3393/makin
 
 
 ## Repository Structure
-── data
+
+```
+├── data
 ├── images
 ├── making_successful_movie.ipynb
 ├── Animal_Shelter_Needs_Presentation.pdf
 └──README.md
+```
