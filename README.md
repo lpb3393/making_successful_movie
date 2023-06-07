@@ -20,7 +20,7 @@ The success of a movie can be measured in different ways, but it typically depen
 
 Given information about movies that have previously been released, we want to know what factors we can pinpoint that will increase our chance for financial success in the cinematic space. The most important being, when people are most likely to go see a movie in theaters, what movies budgets typically have a high Return of Investment and what genre on average generates the most domestic gross revenue. There are other factors that can determine the success of a movie but when entering the movie production space, Microsoft should be most concerned with the financial aspects to establish themselves amongst those already dominating the field.  
 
-
+![movie items](https://github.com/lpb3393/making_successful_movie/blob/main/images/Movie_Items.jpg)
 
 ## Data Understanding
 
