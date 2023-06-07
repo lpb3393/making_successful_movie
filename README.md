@@ -99,3 +99,16 @@ Questions to consider:
 Would movie rating (PG-13, R, etc.) affect the domestic gross for each genre? Would a dataset that did not have Null values change the results? Who determines what combinations of genres a movie is?
 
 To improve this project in the future, it would be helpful to determine what movie rating is the highest grossing and most popular. The rating could make a movie drastically different and more widely accessible if it was rated G rather than R, but would be helpful to see if on average it made it more succesful.
+
+
+
+## For More Information
+See the full analysis in the [Jupyter Notebook](https://github.com/lpb3393/making_successful_movie/blob/main/making_successful_movie.ipynb) or review the [presentation]()
+
+
+## Repository Structure
+── data
+├── images
+├── making_successful_movie.ipynb
+├── Animal_Shelter_Needs_Presentation.pdf
+└──README.md
