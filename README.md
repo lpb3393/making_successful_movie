@@ -104,7 +104,7 @@ To improve this project in the future, it would be helpful to determine what mov
 
 
 ## For More Information
-See the full analysis in the [Jupyter Notebook](https://github.com/lpb3393/making_successful_movie/blob/main/making_successful_movie.ipynb) or review the [presentation]()
+See the full analysis in the [Jupyter Notebook](https://github.com/lpb3393/making_successful_movie/blob/main/making_successful_movie.ipynb) or review the [presentation](https://github.com/lpb3393/making_successful_movie/blob/main/Making%20A%20Successful%20Movie.pdf)
 
 
 ## Repository Structure
@@ -112,7 +112,8 @@ See the full analysis in the [Jupyter Notebook](https://github.com/lpb3393/makin
 ```
 ├── data
 ├── images
-├── making_successful_movie.ipynb
-├── Animal_Shelter_Needs_Presentation.pdf
-└──README.md
+├── .gitignore
+├── Making A Successful Movie.pdf
+├── ReadMe.md
+└── making_successful_movie.ipynb
 ```
