@@ -18,7 +18,7 @@ The success of a movie can be measured in different ways, but it typically depen
 
 ## Business Problem
 
-Given information about movies that have previously been released, we want to know what factors we can pinpoint that will increase our chance for financial success in the cinematic space. The most important being, when people are most likely to go see a movie in theaters, what movies budgets typically have a high Return of Investment and what genre on average generates the most domestic gross revenue. There are other factors that can determine the success of a movie but when entering the movie production space, Microsoft should be most concerned with the financial aspects to establish themselves amongst those already dominating the field.  
+Given information about movies that have previously been released, we want to know what factors we can pinpoint that will increase our chance for financial success in the cinematic space. The most important being, when people are most likely to go see a movie in theaters, what movies budgets typically have a high Return of Investment and what genre on average generates the most domestic gross revenue. There are other factors that can determine the success of a movie but when entering the movie production business, Microsoft should be most concerned with the financial aspects to establish themselves amongst those already dominating the field.  
 
 ![movie items](https://github.com/lpb3393/making_successful_movie/blob/main/images/Movie_Items.jpg)
 
@@ -30,7 +30,7 @@ The data I am using to perform this analysis is from IMDB, the most robust websi
 
 ## Data Exploration
 
-First, I imported all of the necessiary libraries I will need for this analysis. I wanted to be able to take a look at all of the files provided and find the important information we need to ulitmately answer the business question. Once I established the factors I felt were important in creating a successful movie and found information I can use, I then found mutual columns between tables to prepare for data cleaning.
+First, I imported all the necessary libraries I will need for this analysis. I wanted to be able to look at all of the files provided and find the important information we need to ultimately answer the business question. Once I established the factors, I felt were important in creating a successful movie and found information I can use, I then found mutual columns between tables to prepare for data cleaning.
 
 
 
@@ -40,23 +40,24 @@ First, I imported all of the necessiary libraries I will need for this analysis.
 The first thing I want to consider is what genre of movie typically has the highest domestic gross value. In order to do that I joined the "movie_basics" table and the "movie_ratings" table based on the 'movie_id" column, that way I could have the genre and the title of that movie in the same table. After that, I separated each movies' genre into its own row and removed columns in the table I did not need. 
 
 
-The second question that needed to be asked is, how much should a production company spend to get the highest return on investment? I took the total domestic gross for each movie and subtracted it with it's production budget to get the ROI. Then by compared it again to each movies production budget, it provided insight for an ideal cost to produce a movie.
+The second question that needed to be asked is, how much should a production company spend to get the highest return on investment? I took the total domestic gross for each movie and subtracted it with its production budget to get the ROI. Then by compared it again to each movies production budget, it provided insight for an ideal cost to produce a movie.
 
 
-Lastly, I wanted to know what time of year do people typically see movies or what month of the year makes generates the most profit? By looking and when each movie was release and taking the average earned per month, I was be able to see which month will increase the likelihood of having a financially successful movie.
+Lastly, I wanted to know what time of year do people typically see movies or what month of the year makes generates the most profit? By looking and when each movie was release and taking the average earned per month, I was able to see which month will increase the likelihood of having a financially successful movie.
+
 
 
 ## Data Modeling
 
 
-To best analyze this data and see what genre is the most successful at the box office, I want to use a bargraph to directly compare genre and domestic gross. After using code to determine that top five producing genres and ploting them, it's interesting to see who the top earners are. In the given dataset, each movie has one to three genre types listed, but it seems that Sci-Fi and adventure are the most common and successful. When trying to determine what will make a movie succeed, the goal is to first make a type of movie that people will enjoy the most. 
+To best analyze this data and see what genre is the most successful at the box office, I want to use a bargraph to directly compare genre and domestic gross. After using code to determine that top five producing genres and plotting them, it's interesting to see who the top earners are. In the given dataset, each movie has one to three genre types listed, but it seems that Sci-Fi and adventure are the most common and successful. When trying to determine what will make a movie succeed, the goal is to first make a type of movie that people will enjoy the most. 
 
 
 ![genre](https://github.com/lpb3393/making_successful_movie/blob/main/images/Top_5_Genre.JPG)
 
 
 
-Setting an appropriate movie budget is crucial for maximizing ROI because it can directly affect the financial success of the film. If a movie is amde with a budget that is too high, it may be difficult to recoup the costs through box office sales or other revenue streams. On the other hand, if a movie is made with a budget that is too low, the quality of the film may suffer, which could result in poor reviews and low box office sales. To determine what budget is likely to yield results I calculated Return on Investment for each movie and directly compared it to that movies production budget. From the graph you can see that budgets of 30 to 35 million produce the best results.
+Setting an appropriate movie budget is crucial for maximizing ROI because it can directly affect the financial success of the film. If a movie is made with a budget that is too high, it may be difficult to recoup the costs through box office sales or other revenue streams. On the other hand, if a movie is made with a budget that is too low, the quality of the film may suffer, which could result in poor reviews and low box office sales. To determine what budget is likely to yield results I calculated Return on Investment for each movie and directly compared it to that movies production budget. From the graph you can see that budgets of 30 to 35 million produce the best results.
 
 
 ![production budget](https://github.com/lpb3393/making_successful_movie/blob/main/images/Production_Budget.JPG)
@@ -67,7 +68,7 @@ Setting an appropriate movie budget is crucial for maximizing ROI because it can
 
 
 
-The time of year a movie is released can be important for several reason. For example, studios often release blockbusters durng the summer months when more people have free time to go to the movies. Additionally, some movies are released during the holiday season to take advantage of the increased spending on entertainment during that time of year. But which month typically comes out on top finanically? By calculating the mean domestic gross for each month and having python choose the top five earners, this bar graph shows a near tie between May and June.
+The time of year a movie is released can be important for several reason. For example, studios often release blockbusters during the summer months when more people have free time to go to the movies. Additionally, some movies are released during the holiday season to take advantage of the increased spending on entertainment during that time of year. But which month typically comes out on top financially? By calculating the mean domestic gross for each month and having python choose the top five earners, this bar graph shows a near tie between May and June.
 
 
 ![month of release](https://github.com/lpb3393/making_successful_movie/blob/main/images/Top_5_Months.JPG)
@@ -98,7 +99,7 @@ Questions to consider:
 
 Would movie rating (PG-13, R, etc.) affect the domestic gross for each genre? Would a dataset that did not have Null values change the results? Who determines what combinations of genres a movie is?
 
-To improve this project in the future, it would be helpful to determine what movie rating is the highest grossing and most popular. The rating could make a movie drastically different and more widely accessible if it was rated G rather than R, but would be helpful to see if on average it made it more succesful.
+To improve this project in the future, it would be helpful to determine what movie rating is the highest grossing and most popular. The rating could make a movie drastically different and more widely accessible if it was rated G rather than R but would be helpful to see if on average it made it more succesful. Also, finding which actors that have more of a draw to get people in theaters would be very beneficial information to have.
 
 
 
