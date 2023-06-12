@@ -110,7 +110,6 @@ See the full analysis in the [Jupyter Notebook](https://github.com/lpb3393/makin
 ## Repository Structure
 
 ```
-├── data
 ├── images
 ├── .gitignore
 ├── Making A Successful Movie.pdf
